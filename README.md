@@ -29,14 +29,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+1. The DOM is an object representation of the source HTML document. It is a language neutral API that has a tree-like data structure that uses nodes to represent the content, structure and styles of a web page. It is dynamic and used to add, delete, and manipulate content.
+
 
 2. What is an event?
+2. An event is an action that happens to the system in a webpage that the system acknowledges so you can respond to the action, if desired. For example, if a user clicks an HTML element on the webpage, the element may be programmed to change in some manner. Each event is represented by an object.
 
 3. What is an event listener?
+3. An event listener is a procedure in a program that is designed to acknowledge an event when it occurs. The eventListener interface handles events dispatched by an EventTarget object.
 
 4. Why would we convert a NodeList into an Array?
+4. We would convert a NodeList into an array to utilize the method features of an array. When you convert a NodeList to an array you can use forEach, map, or filter. 
 
 5. What is a component?
+5. Components are smaller pieces of code that are used to keep code DRY and designed to be used multiple times. It breaks larger pieces of code down to smaller parts to make development faster.
 
 ### Git Set up
 
